@@ -4,7 +4,7 @@ https://ru.hexlet.io/courses/html/lessons/grouping/exercise_unitbody {
   margin: 0 auto;   /* center content */
   max-width: 800px; /* limit width */
   line-height: 1.5;
-  padding-top: 322px;
+  padding-top: 32px;
   padding-bottom: 12px;
 }
 
@@ -19,7 +19,7 @@ h1{
     margin-bottom: 0;
 }
 h2{
-    font-size: 32px;
+    font-size: 12px;
     border-bottom:1px grey;
     margin-bottom:8px;
 }
