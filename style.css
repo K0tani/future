@@ -1,4 +1,4 @@
-https://ru.hexlet.io/courses/html/lessons/grouping/exercise_unitbody {
+ {
   font-family: Georgia;
   font-size: 16px;
   margin: 0 auto;   /* center content */
@@ -42,5 +42,8 @@ p {
     margin-bottom: 30px;
 }
 #sima {
-  font-color: #ff0000;
+color: #ff0000;
+    margin-bottom: 32px;
+    text-align: center;
+
 }
