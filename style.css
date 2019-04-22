@@ -21,7 +21,7 @@
   position:fixed;
   padding-top:auto;
   border:solid 0.1px #ffccff;
-  display:fixed;
+  display:block;
 }
 .navigation_box_01 {
     background-color:#f2f2f2;
