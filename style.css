@@ -1,4 +1,4 @@
-body {
+    body {
   background:linear-gradient(to top,#e6e6e6, #ffffff );
 }
 
@@ -34,6 +34,7 @@ body {
     text-align: left;
     margin-left:2px;
     margin-right:8px;
+    display:fixed;
 }
 .navigation_box_01:hover {
     background-color:#36a9e0;
