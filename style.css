@@ -1,63 +1,170 @@
-  body {
-  !background:linear-gradient(to top,#e6e6e6, #ffffff );
+html{
+    min-height: 100%;
 }
 
-#h1_1{
-  color:rgb(255 106 19);
-  border:1px solid black;
-  box-shadow:5px 5px 5px 5px;
+body {
+    background: url(img/background.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
 }
- #main_text {
-  font-family: Impact, Charcoal, sans-serif ;
-  font-size: 16px;
-  line-height: 1.5;
-  padding-top: 32px;
-  text-align: center;
-  background-color:gey;
-  border:solid 0.1px #ffccff;
+
+.central-frame {
+    height: 680px;
+    width: 680px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
 }
-#navigation_bar {
-  background-color:white;
-  position:fixed;
-  padding-top:auto;
-  border:solid 0.1px #ffccff;
-  display:block;
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+    color: white;
 }
-.navigation_box_01 {
-    background-color:#f2f2f2;
-    display: inline-block;
-    vertical-align: top;
-    height: 51px;
-    cursor: pointer;
-    color: #666;
-    transition: all .4s ease;
-    padding: 14px 18px 0;
+
+label {
+    display: block;
+    color: white;
+    line-height: 100%;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.characters {
+    margin-bottom: 20px;
+}
+.title-weapon-frst {
+    padding-top: 40px;
+}
+
+#character1 {
+    background-image: url(img/Character_1.png);
+    background-size: cover;
+    position: relative;
+    float: left;
+    display: inline;
+    width: 216px;
+    height: 47px;
+    line-height: 100%;
     text-align: left;
-    margin-left:2px;
-    margin-right:8px;
-}
-.navigation_box_01:hover {
-    background-color:#36a9e0;
-    display: inline-block;
-    vertical-align: top;
-    height: 51px;
-    cursor: pointer;
-    color: #666;
-    !transition: all .2s ease;
-    padding: 16px 18px 0;
-    text-align: left; 
+    color: #fff;
+    text-shadow: 0 1px 1px;
 }
 
-#tg_email {
-  color:black;
+#character2 {
+    background-image: url(img/Character_2.png);
+    background-size: cover;
+    position: relative;
+    float: left;
+    display: inline;
+    width: 216px;
+    height: 47px;
+    line-height: 100%;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 1px 1px;
+    margin: 0 16px;
 }
-#tg_email:hover {
-  color:blue;
-  transition: all .2s ease;
-  }
-#2top_black_box{
-  background-color:black; 
-  color:grey;
-  font-weight:bold;
-  font-size:10px;
+
+#character3 {
+    background-image: url(img/Character_3.png);
+    background-size: cover;
+    position: relative;
+    float: left;
+    display: inline;
+    width: 216px;
+    height: 47px;
+    line-height: 100%;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 1px 1px;
+}
+
+.slot {
+    display: block;
+    margin: 20px 0 0 0;
+    width: 200px;
+    height: 96.979px;
+}
+
+.slot-img-left {
+    position: relative;
+    float: left;
+    clear: left;
+    display: inline;
+    width: 96px;
+    height: 96px;
+    background-image: url(slot.jpg);
+    box-shadow: 0 0 0 2px rgba(36, 36, 36, 0.21);
+    margin: 2px 2px 8px 2px;}
+
+.slot-img-right {
+    position: relative;
+    float: right;
+    clear: right;
+    display: inline;
+    width: 96px;
+    height: 96px;
+    box-shadow: 0 0 0 2px rgba(36, 36, 36, 0.21);
+    margin: 2px 2px 8px 2px;}
+
+.gear {
+    float: right;
+    clear: right;
+    display: inline;
+    width: 200px;
+}
+
+.gear-frst {
+    background-image: url(img/Gear_1.png);
+}
+
+.gear-scnd {
+    background-image: url(img/Gear_2.png);
+}
+
+.gear-thre {
+    background-image: url(img/Gear_3.png);
+}
+
+.gear-four {
+    background-image: url(img/Gear_4.png);
+}
+
+.gear-five {
+    background-image: url(img/Gear_5.png);
+}
+
+.weapon {
+    float: left;
+    clear: left;
+    display: inline;
+    width: 200px;
+}
+
+.weapon-frst {
+    background-image: url(img/Weapon_1.png);
+}
+
+.weapon-scnd {
+    background-image: url(img/Weapon_2.png);
+}
+
+.weapon-thre {
+    background-image: url(img/Weapon_3.png);
+}
+
+.slot-frst {
+    background-image: url(img/Ghost.png);
+}
+
+.slot-scnd {
+    background-image: url(img/Fire.png);
+}
+
+.power {
+    height: 30px;
+    width: 30px;
 }
